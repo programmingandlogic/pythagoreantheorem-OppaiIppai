@@ -1,0 +1,26 @@
+* File: Quadratic.java
+ * --------------------
+ * This program is a stub for the Quadratic problem, which finds the
+ * roots of the quadratic equation.
+ */
+
+import acm.program.*;
+
+public class Quadratic extends ConsoleProgram {
+
+	public void run() {
+		int c1 = 0;
+		int a1 = readInt("Please enter a: ");
+		int b1 = readInt("Please enter b: ");
+		
+		a1 = a1*a1;
+		b1 = b1*b1;
+		c1 = a1+b1;
+		c1 = (int) Math.sqrt(c1);
+		
+		println("The Hypotenuse is  " + c1 +"");
+		
+	}
+
+}
+
